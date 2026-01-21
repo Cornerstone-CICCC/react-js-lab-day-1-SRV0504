@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  color: #eaeaea;
+}
+
+/* Contenedor general */
+section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Títulos */
+h1,
+h2 {
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+/* Formularios */
+form > div {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Radios y checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+/* Botones */
+button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #2f2f2f;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #3d3d3d;
+}
+
+button:active {
+  background-color: #555;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  margin-top: 12px;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+  color: #ccc;
+}
+
+td {
+  padding: 8px 0;
+  border-bottom: 1px solid #333;
+}
+
+/* Separadores visuales */
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+}
+
+/* User Profile */
+p {
+  margin: 6px 0;
+}
